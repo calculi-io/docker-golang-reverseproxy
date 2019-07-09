@@ -32,7 +32,7 @@
 					{
 						"name": "Get dependencies",
 						"definition": "Get dependencies",
-						"command": "go get -t -u ./...",
+						"command": "go get -t -d ./...",
 						"properties": null
 					},
 					{
