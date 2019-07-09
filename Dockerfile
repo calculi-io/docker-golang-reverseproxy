@@ -1,4 +1,4 @@
-iFROM alpine:latest
+FROM alpine:latest
 
 MAINTAINER ilanyu <lanyu19950316@gmail.com>
 
