@@ -30,6 +30,12 @@
 				"segment_type": "build",
 				"job_steps": [
 					{
+						"name": "Build",
+						"definition": "Build",
+						"command": "go build -o ReverseProxy_linux_amd64",
+						"properties": null
+					},
+					{
 						"name": "Docker",
 						"definition": "Docker",
 						"command": "docker build -t reverseproxy:latest -f Dockerfile .",
